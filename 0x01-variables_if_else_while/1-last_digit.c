@@ -3,25 +3,25 @@
 #include <stdio.h>
 
 /**
- * main - main entry point
- * Return: 0
+ * main - Entry point
+ * Description: print the last digit
+ * Return: 0 (Success)
  */
 
 int main(void)
 {
 	int n;
-	int last_digit;
+	int lastDigit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	last_digit = n % 10;
-	printf("last digit of");
-	if (last_digit > 5)
-		printf("%d is %d is greater than 5\n", n, last_digit);
-	else if (last_digit < 6 && last_digit != 0)
-		printf("%d is %d and is less than 6 and not 0\n", n, last_digit);
+	lastDigit = n % 10;
+	printf("Last digit of %d and is ", n, lastDigit);
+	if (lastDigit > 5)
+		printf("greater than 5\n");
+	else if (lastDigit == 0)
+		printf("0\n");
 	else
-		printf("%d is %d and is 0\n", n, last_digit);
+		printf("less than 6 but not 0\n");
 	return (0);
 }
-
