@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the numbers since 0 to 9
+ * main - Prints all single digit numbers of base 10 starting from 0
  *
  * Return: Always 0 (Success)
  */
@@ -10,10 +10,10 @@ int main (void)
 {
 	int n;
 
-	for (n = '0'; n <= '9'; n++)
-		putchar(n);
+	for (n = 0; n < 10 ; n++)
+		putchar((n % 10) + '0');
 
 	putchar('\n');
 
-	return (0)
+	return (0);
 }
