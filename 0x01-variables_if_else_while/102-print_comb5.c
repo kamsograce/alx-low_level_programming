@@ -1,10 +1,10 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * main - Prints all possible combination of two-digits numbers
- * Return: Always 0 (Success)
+ * main - Prints all possible combination of two-digits numbers,
+ *        ranging from 0-99, separated by comma followed by a space.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -23,10 +23,10 @@ int main(void)
 				if (num1 == 98 && num2 == 99)
 					continue;
 
-					putchar(',');
-					putchar(' ');
-				}
-			}
+				putchar(',');
+				putchar(' ');
+		}
+	}
 
 	putchar('\n');
 
