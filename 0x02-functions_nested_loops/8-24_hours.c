@@ -4,6 +4,7 @@
  * @n: The number to be treated
  * Return: Value of the last didgit of number
  */
+
 int print_last_digit(int n)
 {
 	int last;
