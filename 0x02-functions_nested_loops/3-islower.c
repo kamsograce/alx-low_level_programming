@@ -9,13 +9,10 @@
  * Return: 1 if lowercase, 0 if not lowercase
  */
 
-void print_numbers(void)
+int _islower(int c)
 {
-	int x;
-
-	for (x = 48; x < 58; x++)
-	{
-		_putchar(x);
-	}
-	_putchar(10);
+	if (c >= 97 && c <= 122)
+		return (1);
+	else
+		return (0);
 }
