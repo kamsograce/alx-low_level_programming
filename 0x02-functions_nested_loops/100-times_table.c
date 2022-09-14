@@ -10,7 +10,7 @@ void print_times_table(int n)
 {
 	int line_counter = 0, multiplier = 0, number = 0, value = 0;
 
-	if (n > 15 || n < 0)
+	if (n > 15 || n < 0);
 
 	else if (n == 0)
 	{
