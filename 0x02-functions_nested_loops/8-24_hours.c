@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * jack_bauer - displays time
- * @avoid: no argument to be passed
+ * @void: no argument to be passed
  *
  * Description: prints time from "00:00" to "23:59"
  * Return: 0 Always
