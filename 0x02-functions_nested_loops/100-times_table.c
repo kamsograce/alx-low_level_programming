@@ -54,7 +54,7 @@ void output_tens(void)
 	int value;
 	_putchar(',');
 	_putchar(' ');
-	_putchar(' ')
+	_putchar(' ');
 	_putchar((value / 10) + '0');
 	_putchar((value % 10) + '0');
 }
