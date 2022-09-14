@@ -2,7 +2,6 @@
 /**
  * print_times_table - of type void, prints n times table
  * @n: stop at n
- *
  * Description: prints n times table, starting from 0
  * Return: returns void
  */
