@@ -1,22 +1,40 @@
 #include "main.h"
 /**
- * print_last_digit - Prints the last didgit of a number
- * @n: The number to be treated
- * Return: Value of the last didgit of number
+ * jack_bauer - displays time
+ * @avoid: no argument to be passed
+ *
+ * Description: prints time from "00:00" to "23:59"
+ * Return: 0 Always
  */
-
-int print_last_digit(int n)
+void jack_bauer(void)
 {
-	int last;
+	int second = 0, w = 0, x = 0, y = 0, z = 0;
 
-	last = n % 10;
-
-	if (last < 0)
+	while (second < 1440)
 	{
-		last = last * -1;
-	}
+		_putchar(w + '0');
+		_putchar(x + '0');
+		_puychar(':');
+		_putchar(y + '0');
+		_putchar(z + '0');
+		_putchar('\n');
 
-	_putchar(last + '0');
-
-	return (last);
+		z++;
+		if (z > 9)
+		{
+			y++;
+			z = 0;
+		}
+		if (y > 5)
+		{
+			x++;
+			y = 0;
+		}
+		if (x > 9)
+		{
+			w++;
+			x = 0;
+		}
+			second++;
+		}
 }
