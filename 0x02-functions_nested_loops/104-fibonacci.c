@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - type int, print the first '98' fibonacci
  * @void: void argument
  *
