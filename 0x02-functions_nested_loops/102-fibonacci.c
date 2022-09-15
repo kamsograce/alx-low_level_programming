@@ -6,6 +6,7 @@
  * Description: prints the numbers, followedbt a new line
  * Return: 0 Always
  */
+
 int main(void)
 {
 	long int a = 1, b = 2, c;
@@ -22,6 +23,6 @@ int main(void)
 		b = c;
 		count++;
 	}
-	printf("\n');
+	printf("\n");
 	return (0);
 }
