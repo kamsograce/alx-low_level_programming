@@ -6,11 +6,11 @@
  */
 void rev_string(char *s)
 {
-	char rev_str[1000] = {0}; /*Making an array for the reverse str*/
-	char s_copy[1000];       /*Making a copy of array s*/
+	char rev_str[1000] = {0};	/*Making an array for the reverse str*/
+	char s_copy[1000];	/*Making a copy of array s*/
 	int i = 0, j, k, index;
 
-	while (s[i] != 0)    	/*Finding the no of non-zero element*/
+	while (s[i] != 0)	/*Finding the no of non-zero element*/
 	{
 		s_copy[i] = s[i];	/*duplicating char s**/
 		i++;
