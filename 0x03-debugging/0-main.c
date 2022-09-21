@@ -2,6 +2,8 @@
 
 /**
  * main - tests function that prints if integer positive or negative
+ * @void - no argument required
+ *
  * Return: 0
  */
 
@@ -9,9 +11,8 @@ int main(void)
 {
 	int i;
 
-	i = 98;
+	i = 0;
 	positive_or_negative(i);
-
 	return (0);
 }
 
