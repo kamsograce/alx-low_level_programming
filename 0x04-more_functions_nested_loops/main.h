@@ -1,10 +1,5 @@
-#ifndef MAIN_H_
-#define MAIN_H_
-
-#include <stdio.h>
-
 int _putchar(int c);
-int _putchar(int c);
+int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
 void print_numbers(void);
@@ -13,7 +8,6 @@ void more_numbers(void);
 void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
+int main(void);
 void print_triangle(int size);
-int _atoi(char *s);
-
-#endif
+int print_number(int n);
