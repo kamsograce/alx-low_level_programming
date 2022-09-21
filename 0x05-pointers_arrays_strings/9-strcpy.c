@@ -4,11 +4,11 @@
  * _strcpy - copies the string pointed to by src, including the
  * terminating null byte (\0), to the buffer pointed to by dest.
  *
- * @dest; buffer
- * src: cource string.
+ * @dest: buffer
+ * @src: cource string.
  * Return: the pointer to dest.
  */
-char *_strcpy(char * dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 
