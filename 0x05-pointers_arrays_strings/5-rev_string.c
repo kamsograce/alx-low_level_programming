@@ -10,7 +10,7 @@ void rev_string(char *s)
 	char s_copy[1000];       /*Making a copy of array s*/
 	int i = 0, j, k, index;
 
-	while (s[i] = s[i];    	/*Finding the no of non-zero element*/
+	while (s[i] = != 0)    	/*Finding the no of non-zero element*/
 	{
 		s_copy[i] = s[i];	/*duplicating char s**/
 		i++;
