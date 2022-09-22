@@ -7,7 +7,7 @@
  *
  * @dest: buffer
  * @src: source string
- * @n limit of bytes of src to be cpied
+ * @n: limit of bytes of src to be cpied
  * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
