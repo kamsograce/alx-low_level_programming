@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-* _strcat - concatenates two strings
-* @dest: string 1
-* @src: string 2
-* Return: string 1 + string 2
-*/
-char *strcat(char *dest, char *src)
+ * _strcat - concatenates two strings
+ * @dest: string 1
+ * @src: string 2
+ * Return: string 1 + string 2
+ */
+char *_strcat(char *dest, char *src)
 {
 	int i = 0, j = 0;
 
