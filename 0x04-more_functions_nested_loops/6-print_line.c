@@ -9,7 +9,8 @@ void print_line(int n)
 {
 	int count = 1;
 
-	if (n <= 0);
+	if (n <= 0)
+		;
 	else
 	{
 		while (count <= n)
