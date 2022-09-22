@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+ * _strncat - concatenates two strings restricted to n bytes of src
+ * @dest: string 1
+ * @src: string 2
+ * @n: bytes restriction of src
+ * Return: string 1 + string 2
+ */
+char *_strncat(char *dest, char *src, int n)
+{
+	int i = 0, j = 0;
+
+	while (dest[i] != 0)
+		i++;
+	while (j < n && src[j] != '\0')
+	{
+		dest[i] = src[j];
+		i++, j++;
+	}
+	return (dest);
+}
