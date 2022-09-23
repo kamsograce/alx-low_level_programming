@@ -13,5 +13,7 @@ int _putchar(char c);
 char *_strncpy(char *dest, char *src, int n);
 int strcount(char str[]);
 char *rot13(char *str);
+void print_buffer(char *b, int size);
+char *indefinite_add(char *n1, char *n2, char *r, int size_r);
 
 #endif /* MAIN_H */
