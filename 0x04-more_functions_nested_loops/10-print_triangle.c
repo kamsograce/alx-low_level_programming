@@ -24,7 +24,7 @@ void print_triangle(int size)
 			{
 				_putchar(32);
 			}
-			for (j = 0; j < k; j++)	/*to print #*/
+			for (j = 0; j < i; j++)	/*to print #*/
 			{
 				_putchar(35);
 			}
