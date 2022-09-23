@@ -8,7 +8,8 @@
 char *cap_string(char *str)
 {
 	int i, j;
-	char separators[] = {' ', '\t', '\n', ',', ';', '.', '!',						'?', '"', '(', ')', '{', '}'};
+	char separators[] = {' ', '\t', '\n', ',', ';', '.', '!',
+		'?', '"', '(', ')', '{', '}'};
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
