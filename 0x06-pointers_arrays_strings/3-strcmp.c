@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * -strcmp - comparing two srings
+ * _strcmp - comparing two srings
  *  @s1: first string
  *  @s2: second string
  *  Return: return 0 if s1 and s2 are the same
