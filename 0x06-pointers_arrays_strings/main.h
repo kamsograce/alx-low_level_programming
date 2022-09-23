@@ -12,5 +12,6 @@ void print_number(int n);
 int _putchar(char c);
 char *_strncpy(char *dest, char *src, int n);
 int strcount(char str[]);
+char *rot13(char *str);
 
 #endif /* MAIN_H */
