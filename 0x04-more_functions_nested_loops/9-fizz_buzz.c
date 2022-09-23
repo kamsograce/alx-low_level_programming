@@ -3,10 +3,10 @@
 
 /**
  * main - print 1 -100
-  * for product of 3 print fizz
-  * for product of 5 print buzz
+  * for product of 3 print Fizz
+  * for product of 5 print Buzz
   * for product of 3 and 5 print Fizzbuzz
- * Return: Always 0
+ * Return:Always 0
  */
 int main(void)
 {
