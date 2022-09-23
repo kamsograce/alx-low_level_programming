@@ -1,12 +1,12 @@
-#include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - print 1 -100
-  * for product of 3 print Fizz
-  * for product of 5 print Buzz
-  * for product of 3 and 5 print Fizzbuzz
- * Return:Always 0
+ * main - prints the numbers from 1 to 100
+ * 3 multiples print Fizz instead of the number
+ * 5 multiples print Buzz instead of the number
+ * 3 & 5 multiples print FizzBuzz instead of the number
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
