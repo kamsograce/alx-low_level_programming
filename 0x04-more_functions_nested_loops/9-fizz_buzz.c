@@ -6,7 +6,7 @@
   * for product of 3 print fizz
   * for product of 5 print buzz
   * for product of 3 and 5 print Fizzbuzz
- * Return:Always 0
+ * Return: Always 0
  */
 int main(void)
 {
